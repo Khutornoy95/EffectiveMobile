@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnreachableCodeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app_orders.models.Order.objects" />
+          <option value="app_goods.models.Offer.objects" />
+          <option value="app_goods.models.Promotion.objects" />
+          <option value="app_orders.models.Order.id" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
